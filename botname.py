@@ -53,7 +53,8 @@ def nameUpdate_Bot1():
             time.sleep(0.5)
             profile = cl.getProfile()
             profile.displayName = bot1_name["3"]
-            cl.updateProfile(profile)                                                                             time.sleep(0.5)
+            cl.updateProfile(profile) 
+            time.sleep(0.5)
             profile = cl.getProfile()
             profile.displayName = bot1_name["4"]
             cl.updateProfile(profile)
